@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopDuck</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/Font-Awesome-640/css/all.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="shortcut icon" href="/public/images/uploaded/logo/0012445_Logo_ShopDunk.png" />
+
+</head>
+
+<body>
+
+    <!-- icon fixed -->
+    <div class="contact-position text-light">
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 50px; right: 20px;">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="position-absolute translate-middle p-2 bg-danger rounded-circle" style="right: -6px; top: 8px;">
+          </span>
+        </div>
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 130px; right: 20px;">
+            <a href="https://zalo.me/0353605901"><i class="fa-sharp fa-solid fa-phone-volume fa-shake text-light"></i></a>
+        </div>
+        <div class="master-wrapper-page container-fluid p-0">
+        </div>
+    </div>
+    <!-- endIconfixed -->
+
+    <!-- Header -->
+    <header class="container-fluid px-0 d-none d-lg-block" style="background-color: #252528;">
+        <div class="container-lg col-md-12 row py-3 m-auto">
+            <div class="col-md-2 p-0 justify-content-center">
+                <a class="row align-items-center px-1 px-0-lg" href="" style="height: 100%;">
+                    <!-- <img class="col-12 m-auto" src="/public/images/uploaded/logo/0012445_Logo_ShopDunk.png" alt=""> -->
+                    <img class="col-12 m-auto" src="" alt="0012445_Logo_ShopDunk">
+                </a>
+            </div>
+            <div class="col-md-3 justify-content-center">
+                <div class="col-12">
+                    <input class="col-12 rounded p-2" type="text" placeholder="Tìm kiếm gì...?">
+                </div>
+            </div>
+            <div class="col-md-2 justify-content-center px-1">
+
+                <button class="col-12 row text-white p-1 bg-secondary rounded">
+                  <div class="col-2 mx-0 p-0 text-left my-auto align-items-center"><i class="fa-thin fa-location-dot fa-xl"></i>
+                  </div>
+                  <div class="col-10 px-0">
+                      <div class="text-right" style="font-size: 11px;">Hệ thống cửa hàng</div>
+                      <div class="text-right" style="font-weight: bold; font-size: 13px;">7 cửa hàng</div>
+                  </div>
+              </button>
+            </div>
+            <div class="col-md-2 justify-content-center px-1">
+
+                <button class="col-12 row text-white p-1 rounded" style="background-color: transparent;">
+                  <div class="col-2 mx-0 p-0 text-left my-auto align-items-center"><i class="fa-solid fa-phone-volume fa-xl"></i>
+                  </div>
+                  <div class="col-10 px-0">
+                      <div class="text-right" style="font-size: 11px;">Gọi mua hàng</div>
+                      <div class="text-right" style="font-weight: bold; font-size: 13px;">1234 5678</div>
+                  </div>
+              </button>
+            </div>
+            <div class="col-md-2 justify-content-center px-1">
+
+                <button class="col-12 row text-white p-1 rounded" style="background-color: transparent;">
+                  <div class="col-2 mx-0 p-0 text-left my-auto align-items-center"><i class="fa-regular fa-user fa-xl"></i>
+                  </div>
+                  <div class="col-10 px-0">
+                      <div class="text-right" style="font-size: 11px;">Thông tin</div>
+                      <div class="text-right" style="font-weight: bold; font-size: 13px;">Tài khoản <i
+                              class="fa-solid fa-code"></i></div>
+                  </div>
+              </button>
+            </div>
+            <div class="col-md-1 justify-content-center px-0">
+                <div class="col-12 align-items-center">
+                    <button class="m-auto col-12 row text-white p-1 rounded" style="background-color: transparent;">
+                      <div class="col-4 px-0 mx-0 my-auto"><i class="fa-solid fa-cart-shopping fa-xl"></i></div>
+                      <div class="col-8 px-0">
+                          <div class="text-right" style="font-size: 11px;"><span
+                                  class="bg-danger text-white rounded-circle px-2 py-1"
+                                  style="font-size: 10px; position: relative; left: -10px; top: -5px; margin-right: -5px;">3</span>Giỏ
+                          </div>
+                          <div class="text-right" style="font-size: 13px;">Hàng</div>
+                      </div>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid col-md-12 m-auto" style="border-top: 1px solid #91919f;">
+            <div class="container-xl col-md-12 mx-auto">
+                <ul class="row pb-2">
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Trang chủ</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Giới thiệu</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          iPhone
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          iPad
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Macbook
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Phụ kiện
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Airpods</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Chính sách</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Tin tức</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <header class="container-fluid px-0 d-block d-lg-none" style="background-color: #252528;">
+        <div class="col-12 row py-1 py-sm-2 mx-auto">
+            <div class="col-1 p-0 d-flex justify-content-center">
+                <button id="menuBtn" class="btn text-light m-auto"><i class="fa-solid fa-bars fa-xl"></i></button>
+            </div>
+            <div class="col-11 p-0 justify-content-center row">
+                <div class="col-6 col-sm-4 justify-content-start">
+                    <a class="row align-items-center px-1 px-0-lg" href="" style="height: 100%;">
+                        <!-- <img class="col-12 m-auto" src="/public/images/uploaded/logo/0012445_Logo_ShopDunk.png" alt="0012445_Logo_ShopDunk"> -->
+                        <img class="col-12 m-auto" src="" alt="0012445_Logo_ShopDunk">
+                    </a>
+                </div>
+                <div class="d-flex col-6 col-sm-8 justify-content-end">
+                    <div class="col col-sm-2  d-flex justify-content-center px-1">
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                          <div class=" mx-0 p-0 text-left my-auto align-items-center">
+                              <i class="fa-thin fa-location-dot fa-xl"></i>
+                          </div>
+                          </button>
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                      <div class=" mx-0 p-0 text-left my-auto align-items-center" style="font-size: small;">
+                          <i class="fa-solid fa-phone-volume fa-xl"></i>
+                      </div>
+                      </button>
+                    </div>
+                    <div class="col col-sm-2  d-flex justify-content-center px-1">
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                          <div class=" mx-0 p-0 text-left my-auto align-items-center">
+                              <i class="fa-regular fa-user fa-xl"></i>
+                          </div>
+                          </button>
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                      <div class=" mx-0 p-0 text-left my-auto align-items-center" style="font-size: small;">
+                          <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                      </div>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-1 px-2 text-center">
+            <input class="rounded col-12" type="text" placeholder="Tìm kiếm gì...?">
+        </div>
+
+        <div id="listMenu" class="text-light px-1 py-2 d-none" style="width: 300px; height: 100%; position: absolute; top: 0; left: 0; z-index: 99; background-color: #491515;">
+            <ul class="list-group">
+                <div class="d-flex justify-content-between p-2" style="background-color: #000000;">
+                    <span>DANH MỤC</span>
+                    <span>
+                      <i id="closeMenu" class="fa-solid fa-xmark fa-xl"></i>
+                  </span>
+                </div>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Trang chủ</a></li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Giới thiệu</a></li>
+                <li class="px-2 py-1 x">
+                    <a class="text-light d-flex justify-content-between " style="list-style: none; text-decoration: none;" href="#">iPhone 
+                      <span>
+                          <i class="fa-solid fa-chevron-right"></i>
+                      </span>
+                     </a>
+                    <ul class="mx-0">
+                        <li style="list-style: none;"><a class="text-light" style="list-style: none; text-decoration: none;" href="#">Trang chủ</a></li>
+                        <li style="list-style: none;"><a class="text-light" style="list-style: none; text-decoration: none;" href="#">Giới thiệu</a></li>
+                        <li style="list-style: none;"><a class="text-light" style="list-style: none; text-decoration: none;" href="#">Dịch vụ</a></li>
+                    </ul>
+                </li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Chính sách</a></li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Tin tức</a></li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Liên hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Endheader -->
+
+    <!-- Main content -->
+    <div class="wrapper-details-page">
+        <div class="page-body container my-4">
+            <div class="product-essential row">
+                <div class="gallery col-lg-5 p-0 ">
+                    <div class="picture p-3 rounded-1" style="background: #ebebefb3">
+                        <img src="public/images/product/ipad_01.png" class="w-100 d-block m-0" alt="ảnh iphone">
+                    </div>
+                    <div class="picture-slideshow mt-3">
+                        <ul class="p-0 d-flex">
+                            <li class="w-25 list-group-item p-3 border border-dark-subtle rounded-2 me-1"><img src="public/images/product/iphone_01.png" class="w-100 d-block" alt="thums">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="overview col-lg-7 px-4">
+                    <div class="wrapper-info py-2 border-bottom">
+                        <div class="product-name">
+                            <h3 class="fw-medium">Iphone 15 ProMax</h3>
+                        </div>
+                        <div class="product-review-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex">
+                                <div class="rating text-warning pe-2">
+                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="product-review-links pe-2 text-primary">
+                                    <a class="text-decoration-none" href="#">12 View</a>
+                                    <span>|</span>
+                                </div>
+                                <div class="overview-buttons text-primary">
+                                    <i class="fa-regular fa-circle-plus"></i> <a class="text-decoration-none" href="#">So
+                                    sánh</a>
+                                </div>
+                            </div>
+                            <div class="storelocation-all">
+                                <select class="form-select bg-light">
+                                <option value="1">Vui lòng chọn</option>
+                                <option selected>Khu vực miền Bắc</option>
+                                <option value="2">Khu vực miền Nam</option>
+                            </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="prices d-flex align-items-center my-2">
+                        <div class="price me-3 d-flex text-primary">
+                            <h4 class="fw-bolder">12.999.000</h4><i class="fa-solid fa-dong-sign"></i>
+                        </div>
+                        <div class="lowPrice text-secondary"><del class="fs-5">12.999.000</del> <i class="fa-light fa-dong-sign fa-xs"></i></div>
+                    </div>
+                    <dl class="attributes">
+                        <dt class="text-prompt">
+                        <label class="form-label fw-lighter mb-2">Dung lượng</label>
+                    </dt>
+                        <dd>
+                            <ul class="d-flex mb-3">
+                                <li class="list-group-item py-1 px-3 border border-dark-subtle me-2 rounded-2">
+                                    <a class="nav-link text-secondary" href="#">128GB</a>
+                                </li>
+                                <li class="list-group-item py-1 px-3 border border-dark-subtle me-2 rounded-2">
+                                    <a class="nav-link text-secondary" href="#">256GB</a>
+                                </li>
+                                <li class="list-group-item py-1 px-3 border border-dark-subtle me-2 rounded-2">
+                                    <a class="nav-link text-secondary" href="#">512GB</a>
+                                </li>
+                            </ul>
+                        </dd>
+                        <dt class="text-prompt">
+                        <label class="form-label fw-lighter mb-2">Màu sắc</label>
+                    </dt>
+                        <dd>
+                            <ul class="d-flex mb-3">
+                                <li class="list-group-item " ng-show="">
+
+                                    <span class="me-3 rounded-circle d-inline-block" style="width: 30px; height: 30px; background: #4c4b49;">&nbsp;
+                                </span>
+                                </li>
+                                <li class="list-group-item "><span class="me-3 rounded-circle d-inline-block" style="width: 30px; height: 30px; background: #e3e5e3;">&nbsp;</span>
+                                </li>
+                                <li class="list-group-item "><span class="me-3 rounded-circle d-inline-block" style="width: 30px; height: 30px; background: #fcebd3;">&nbsp;</span>
+                                </li>
+                                <li class="list-group-item "><span class="me-3 rounded-circle d-inline-block" style="width: 30px; height: 30px; background: #61586b;">&nbsp;</span>
+                                </li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <div class="short-des border border-dark-subtle p-3 my-2 rounded-2">
+                        <div class="des-sale">
+                            <p class="fw-bold"><i class="fa-solid fa-gift"></i> Khuyến mãi</p>
+                            <div class="form-check border-bottom pb-3">
+                                <div class="col-6">
+                                    <input id="muathang" type="radio" name="mua" checked>
+                                    <label class="fw-medium form-label" for="muathang">Mua thẳng</label>
+                                </div>
+                                <div class="col-6">
+                                    <input id="tragop" type="radio" name="mua">
+                                    <label class="fw-medium form-label" for="tragop">Trả góp 0%</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uu-dai py-2">
+                            <p class="fw-bold"><i class="fa-solid fa-gift"></i> Ưu đãi</p>
+                            <div class="form-check border-bottom">
+                                <p class="text-danger fw-medium m-0">Ưu đãi thanh toán <a href="#">(Xem
+                                    thêm)</a></p>
+                                <p class="fw-normal m-0">Giảm <strong>10%</strong> tối đa
+                                    <strong>500.000đ</strong> qua <strong>Home Paylater </strong><a href="#">(Xem
+                                    thêm)</a>
+                                </p>
+                                <p class="fw-normal m-0"> Giảm <strong>5%</strong> tối đa
+                                    <strong>500.000đ</strong> qua Kredivo (SL có hạn)
+                                </p>
+                            </div>
+                            <div class="accordion mt-3" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">
+                                        Xem thêm ưu đãi khác
+                                    </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="text-danger fw-medium m-0">Ưu đãi thanh toán <a href="#">(Xem
+                                                thêm)</a></p>
+                                            <p class="fw-normal m-0">Giảm <strong>10%</strong> tối đa
+                                                <strong>500.000đ</strong> qua <strong>Home Paylater </strong><a href="#">(Xem thêm)</a>
+                                            </p>
+                                            <p class="fw-normal m-0"> Giảm <strong>5%</strong> tối đa
+                                                <strong>500.000đ</strong> qua Kredivo (SL có hạn)
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location text-primary">
+                        <i class="fa-solid fa-store"></i> <a class="text-decoration-none" href="#">Xem cữa hàng
+                        có sẵn sản phẩm</a>
+                    </div>
+                    <div class="call-action">
+                        <div class="btn-buy my-3">
+                            <button class="btn text-bg-primary w-100 py-3 fw-bold text-uppercase" ng-click="addCart(product)">Mua
+                            ngay</button>
+                        </div>
+                        <div class="btn-all row">
+                            <div class="col-6">
+                                <button class="btn btn-outline-primary w-100 py-3 fw-bold text-uppercase">Trả
+                                góp</button>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn btn-outline-primary w-100 py-3 fw-bold text-uppercase"><i class="fa-solid fa-rotate"></i> Thu cũ đổi mới</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service py-2 border border-dark-subtle rounded-2 mt-3">
+                        <ul>
+                            <li class="list-group-item"><i class="fa-solid fa-circle-check" style="color: #0066cc;"></i> Bộ sản phẩm gồm: Hộp, Sách hướng dẫn, Cây lấy sim, Cáp Lightning - Type C</li>
+                            <li class="list-group-item"><i class="fa-solid fa-circle-check" style="color: #0066cc;"></i> Bảo hành chính hãng 1 năm <a href="#">(Chi
+                                tiết)</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-circle-check" style="color: #0066cc;"></i> Giao hàng nhanh toàn quốc <a href="#">(Chi
+                                tiết)</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-circle-check" style="color: #0066cc;"></i> Hoàn thuế cho người nước ngoài <a href="#">(Chi
+                                tiết)</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-circle-check" style="color: #0066cc;"></i> Gọi đặt mua <strong class="text-primary">19006626</strong> (7:30 - 22:00)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- phụ kiện start -->
+            <div class="home-page-category-list">
+                <div class="category-list">
+                    <div class="categoty-item pt-4">
+                        <h2 class="mb-2 fw-bold"><a class="list-group-item" href="#">Gợi ý phụ kiện đi kèm </a></h2>
+                        <div class="list-item row">
+                            <!-- item -->
+                            <div class="item-box col-lg-3 col-md-4 col-6 py-3">
+                                <div class="card p-4 border-0 shadow">
+                                    <div class="item-tag"></div>
+                                    <div class="item-picture mb-4">
+                                        <a href="detail.html">
+                                            <img src="public/images/product/iphone_01.png" class="w-100 d-block object-fit-contain" alt="Iphone14" style="aspect-ratio: 1/1;">
+                                        </a>
+                                    </div>
+                                    <div class="item-details card-body p-0">
+                                        <h5 class="item-title mb-4">
+                                            <a class="list-group-item" href="#">IPhone 15 Pro Max</a>
+                                        </h5>
+                                        <div class="item-info">
+                                            <a href="#" class="text-decoration-none">
+                                                <strong class="actual-price text-primary me-2">12.999.000
+                                                <i class="fa-solid fa-dong-sign fa-xs"></i>
+                                            </strong>
+                                                <del class="old-price text-secondary me-2">12.999.000<i class="fa-solid fa-dong-sign fa-xs">
+                                                </i></del>
+                                                <span class="sale-tag text-secondary">12%</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <div class="item-box col-lg-3 col-md-4 col-6 py-3">
+                                <div class="card p-4 border-0 shadow ">
+                                    <div class="item-tag"></div>
+                                    <div class="item-picture mb-4">
+                                        <a href="detail.html">
+                                            <img src="public/images/product/iphone_01.png" class="w-100 d-block object-fit-contain" alt="Iphone14" style="aspect-ratio: 1/1;">
+                                        </a>
+                                    </div>
+                                    <div class="item-details card-body p-0">
+                                        <h5 class="item-title mb-4">
+                                            <a class="list-group-item" href="#">IPhone 15 Pro Max</a>
+                                        </h5>
+                                        <div class="item-info">
+                                            <a href="#" class="text-decoration-none">
+                                                <strong class="actual-price text-primary me-2">12.999.000
+                                                <i class="fa-solid fa-dong-sign fa-xs"></i>
+                                            </strong>
+                                                <del class="old-price text-secondary me-2">12.999.000<i class="fa-solid fa-dong-sign fa-xs">
+                                                </i></del>
+                                                <span class="sale-tag text-secondary">12%</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <div class="item-box col-lg-3 col-md-4 col-6 py-3">
+                                <div class="card p-4 border-0 shadow ">
+                                    <div class="item-tag"></div>
+                                    <div class="item-picture mb-4">
+                                        <a href="detail.html">
+                                            <img src="public/images/product/iphone_01.png" class="w-100 d-block object-fit-contain" alt="Iphone14" style="aspect-ratio: 1/1;">
+                                        </a>
+                                    </div>
+                                    <div class="item-details card-body p-0">
+                                        <h5 class="item-title mb-4">
+                                            <a class="list-group-item" href="#">IPhone 15 Pro Max</a>
+                                        </h5>
+                                        <div class="item-info">
+                                            <a href="#" class="text-decoration-none">
+                                                <strong class="actual-price text-primary me-2">12.999.000
+                                                <i class="fa-solid fa-dong-sign fa-xs"></i>
+                                            </strong>
+                                                <del class="old-price text-secondary me-2">12.999.000<i class="fa-solid fa-dong-sign fa-xs">
+                                                </i></del>
+                                                <span class="sale-tag text-secondary">12%</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <div class="item-box col-lg-3 col-md-4 col-6 py-3">
+                                <div class="card p-4 border-0 shadow ">
+                                    <div class="item-tag"></div>
+                                    <div class="item-picture mb-4">
+                                        <a href="detail.html">
+                                            <img src="public/images/product/iphone_01.png" class="w-100 d-block object-fit-contain" alt="Iphone14" style="aspect-ratio: 1/1;">
+                                        </a>
+                                    </div>
+                                    <div class="item-details card-body p-0">
+                                        <h5 class="item-title mb-4">
+                                            <a class="list-group-item" href="#">IPhone 15 Pro Max</a>
+                                        </h5>
+                                        <div class="item-info">
+                                            <a href="#" class="text-decoration-none">
+                                                <strong class="actual-price text-primary me-2">12.999.000
+                                                <i class="fa-solid fa-dong-sign fa-xs"></i>
+                                            </strong>
+                                                <del class="old-price text-secondary me-2">12.999.000<i class="fa-solid fa-dong-sign fa-xs">
+                                                </i></del>
+                                                <span class="sale-tag text-secondary">12%</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- phụ kiện end -->
+
+
+
+            <div class="description-review-area mt-5 w-100" data-aos="fade-up" data-aos-delay="200">
+                <div class="tab-details row w-100">
+                    <ul class="nav nav-pills mb-3 nav-product-detail justify-content-center align-items-center" id="pills-tab" role="tablist">
+                        <li class="nav-item nav-product-detail-item">
+                            <a class="nav-link active" id="pills-home-tab" data-bs-toggle="tab" href="#select" role="tab-pane" aria-controls="pills-home" aria-selected="true">Mô tả sản phẩm</a>
+                        </li>
+                        <li class="nav-item nav-product-detail-item border rounded-2 mx-2">
+                            <a class="nav-link" id="pills-profile-tab" data-bs-toggle="tab" href="#select1" role="tab-pane" aria-controls="pills-profile" aria-selected="false">Thông số kỹ thuật</a>
+                        </li>
+                        <li class="nav-item nav-product-detail-item  border rounded-2">
+                            <a class="nav-link" id="pills-contact-tab" data-bs-toggle="tab" href="#select2" role="tab-pane" aria-controls="pills-contact" aria-selected="false">Hỏi đáp</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content description-review-bottom">
+                    <hr>
+                    <div id="select" class="tab-pane active">
+                        <div class="product-anotherinfo-wrapper">
+                            dsadssadsda
+                        </div>
+                    </div>
+                    <div id="select1" class="tab-pane">
+                        <div class="product-description-wrapper">
+                            <table class="table table-striped  col-12">
+                                <tbody>
+                                    <tr>
+                                        <th scope="col">Kích thước màn hình: </th>
+                                        <td>6.1 inches</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Công nghệ màn hình:</th>
+                                        <td>Super Retina XDR OLED</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Tính năng màn hình</th>
+                                        <td>
+                                            Dynamic Island HDR display True Tone Wide color (P3) Haptic Touch Lớp phủ oleophobia chống dấu vân tay Độ sáng tối đa: 2000 nits
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Chống nước / Kháng nước:</th>
+                                        <td>IP68</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Camera sau</th>
+                                        <td>Chính 48 MP & Phụ 12 MP</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Camera trước</th>
+                                        <td>12MP</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">RAM</th>
+                                        <td>6GB</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Pin và nguồn điện</th>
+                                        <td>
+                                            USB Type-C 3877 mAh
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">RAM</th>
+                                        <td>6GB</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Cảm biến</th>
+                                        <td>
+                                            Cảm biến gia tốc, Cảm biến tiệm cận, Cảm biến ánh sáng, Con quay hồi chuyển, Cảm biến áp kế
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Kết nối mạng</th>
+                                        <td>
+                                            5G, GPS, GLONASS, Galileo, QZSS, and BeiDou
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Chip</th>
+                                        <td>
+                                            Chipset: Apple A16 Bionic Loại CPU: 6‑core CPU GPU: 5‑core GPU
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">Kích thước và Trọng lượng</th>
+                                        <td>
+
+                                            Kích thước: 147.6 x 71.6 x 7.80 mm Trọng lượng: 171g
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="select2" class="tab-pane">
+                        <div class="product-description-wrapper row ">
+                            <h1>Đánh giá sản phẩm </h1>
+                            <div class="col-lg-4 mb-5 col-md-12">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <th rowspan="5" class="text-center " style="font-size: 50px;">0
+                                                <p style="font-size: 10px;">đánh giá </p>
+                                            </th>
+                                            <td class="d-flex">1
+                                                <span class="mx-2">
+                                                <i class="fa-solid fa-star" style="color:orange"></i>
+                                            </span>
+                                                <div class="border rounded mt-2 bg-secondary" style="width: 200px ; height: 10px ;">
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="d-flex">2
+                                                <span class="mx-2">
+                                                <i class="fa-solid fa-star" style="color:orange"></i>
+                                            </span>
+                                                <div class="border rounded mt-2 bg-secondary" style="width: 200px ; height: 10px ;">
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="d-flex">3
+                                                <span class="mx-2">
+                                                <i class="fa-solid fa-star" style="color:orange"></i>
+                                            </span>
+                                                <div class="border rounded mt-2 bg-secondary" style="width: 200px ; height: 10px ;">
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="d-flex">4
+                                                <span class="mx-2">
+                                                <i class="fa-solid fa-star" style="color:orange"></i>
+                                            </span>
+                                                <div class="border rounded mt-2 bg-secondary" style="width: 200px ; height: 10px ;">
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="d-flex">5
+                                                <span class="mx-2">
+                                                <i class="fa-solid fa-star" style="color:orange"></i>
+                                            </span>
+                                                <div class="border rounded mt-2 bg-secondary" style="width: 200px ; height: 10px ;">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <hr>
+                                <p>
+                                    Viết đánh giá của riêng bạn
+                                </p>
+                                <div class="d-flex">Chắc lượng:
+                                    <div class="rating text-warning pe-2 mx-2">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <form action="" method="post">
+                                    <div class="mt-2">
+                                        <label for="">Tên của bạn </label><br>
+                                        <input type="text" class="p-2 w-75 border rounded">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="">Đánh giá của bạn về sản phẩm</label><br>
+                                        <textarea name="" id="" rows="5" cols="35" class="p-2 "></textarea>
+                                    </div>
+                                    <div class="mt-2">
+                                        <input type="file">
+
+                                    </div>
+                                    <div class="mt-4">
+                                        <button type="submit" class="btn btn-primary w-25">Gửi</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col-lg-8">
+                                Chưa có đánh giá nào
+                            </div>
+                        </div>
+                        <div class="product-description-wrapper row mt-5">
+                            <h1>Bình luận</h1>
+                            <hr>
+                            <div class="col-lg-4 mt-5">
+                                <form action="" method="post">
+                                    <p>Viết bình luận của bạn</p>
+                                    <div class="mt-2">
+                                        <label for="">Tên của bạn </label><br>
+                                        <input type="text" class="p-2 w-75 border rounded">
+                                    </div>
+                                    <div class="mt-2">
+                                        <label for="">Số Điện thoại</label><br>
+                                        <input type="number" class="p-2 w-75 border rounded">
+                                    </div>
+                                    <div class="mt-3">
+                                        <label for="">Nội dung bình luận</label><br>
+                                        <textarea name="" id="" rows="5" cols="35" class="p-2 "></textarea>
+                                    </div>
+                                    <div class="mt-3">
+                                        <button type="submit" class="btn btn-primary w-25">Gửi</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- câu hỏi -->
+                                        <div>
+                                            <div class="d-block">
+                                                <img src="/public/images/uploaded/logo/vn.png" alt="" class="border rounded" style="width: 4%; height: 4%;">
+                                                <label><b>Hằng</b></label><br>
+                                            </div>
+                                            <div class="mt-2" style="margin-left: 4%;">
+                                                <p>Thời gian mất bao lâu để đặt hàng và nhận sản phẩm khi mua trả góp?
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- câu trả lời -->
+                                        <div class="ms-5">
+                                            <div class="d-block">
+                                                <i class="fa-solid fa-reply fa-flip-both"></i>
+                                                <img src="/public/images/uploaded/logo/vn.png" alt="" class="border rounded" style="width: 4%; height: 4%;">
+                                                <label><b>Hằng</b></label><br>
+                                            </div>
+                                            <div class="" style="margin-left: 7%;">
+                                                <p>Thời gian mất bao lâu để đặt hàng và nhận sản phẩm khi mua trả góp?
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <div class="d-block">
+                                                <img src="/public/images/uploaded/logo/vn.png" alt="" class="border rounded" style="width: 4%; height: 4%;">
+                                                <label><b>Hằng</b></label><br>
+                                            </div>
+                                            <div class="mt-2" style="margin-left: 4%;">
+                                                <p>Thời gian mất bao lâu để đặt hàng và nhận sản phẩm khi mua trả góp?
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="col-12">
+                                        <div>
+                                            <div class="d-block">
+                                                <img src="/public/images/uploaded/logo/vn.png" alt="" class="border rounded" style="width: 4%; height: 4%;">
+                                                <label><b>Hằng</b></label><br>
+                                            </div>
+                                            <div class="mt-2" style="margin-left: 4%;">
+                                                <p>Thời gian mất bao lâu để đặt hàng và nhận sản phẩm khi mua trả góp?
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Form info -->
+    <article>
+        <div class="footer_newletter container-fluid pt-5">
+            <div class="form-newletter text-center py-5" style="background: #F2F2F2; color: #515154;">
+                <h3>Đăng kí nhận tin từ ShopDuck</h3>
+                <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                <div class="input-group w-25 m-auto d-flex">
+                    <input type="text" class="form-control rounded-start-5 px-3 border-0" placeholder="Email của bạn">
+                    <button class="input-group-text btn text-bg-primary rounded-end-5 px-4">Đăng kí</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Form info -->
+
+    <!-- Foooter -->
+    <div class="footer-upper text-bg-dark">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="follow-us col-lg-3 col-12 ">
+                    <div class="fu-logo">
+                        <img src="public/images/uploaded/logo/0012445_Logo_ShopDunk.png" class="d-block w-50" alt="logo">
+                    </div>
+                    <div class="fu-topic my-2">
+                        Năm 2020, ShopDunk trở thành đại lý ủy quyền của Apple. Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho người dùng Việt Nam.
+                    </div>
+                    <div class="fu-network">
+                        <ul class="d-inline-flex">
+                            <li class="list-group-item p-2 me-2"><a href="#"><i
+                                      class="fs-4 fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-group-item p-2 me-2"><a href="#"><i
+                                      class="fs-4 fa-brands fa-youtube text-danger"></i></a></li>
+                            <li class="list-group-item p-2 me-2"><a href="#"><i class="fs-4 fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information col-lg-3 col-4 px-5">
+                    <h6 class="mb-3">Thông tin</h6>
+
+                    <ul class="list-unstyled text-start text-secondary">
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="#!introduce" class="text-reset text-decoration-none">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Check IMEI</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Phương thức thanh toán</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Thuê điểm bán lẻ</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Bảo hành và sửa chữa</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Đánh giá chất lượng, khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">tra cứu hóa đơn điện tử</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="customer-service col-lg-3 col-4 px-5">
+                    <h6 class="mb-3">Chính sách</h6>
+
+                    <ul class="list-unstyled text-start text-secondary">
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Thu cũ đổi mới</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Giao hàng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Giao hàng (ZaloPay)</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Đổi trả</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Dịnh vụ</a>
+                        </li>
+                        <li>
+                            <a href="#!complain" class="text-reset text-decoration-none">Giải quyết khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Bảo mật thông tin</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Hướng dẫn thanh toán qua VNPAY</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="my-account col-lg-3 col-4 px-5">
+                    <h6 class="mb-3">Địa chỉ & Liên hệ</h6>
+
+                    <ul class="list-unstyled text-start text-secondary">
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tài khoảng của tôi</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Đơn hàng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Hệ thống cữa hàng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tìm store trên Google Map</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Mua hàng: </a><span class="text-primary fs-6">1900.6626</span>
+                            <ul>
+                                <li class="list-group-item fw-lighter">Nhánh 1: khu vực Hà Nội và các tỉnh phía bắc</li>
+                                <li class="list-group-item fw-lighter">Nhánh 2: khu vực Hồ Chí Minh và các tỉnh phía nam
+                                </li>
+                                <li class="list-group-item fw-lighter">Nhánh 3: Khiếu nại và góp ý</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Doanh nghiệp: </a><span class="text-primary fs-6">0822.688.668</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row py-4">
+                <div class="col-lg-10 col-8">
+                    <p class="text-secondary m-0 fw-light">© 2016 Công ty Cổ Phần HESMAN Việt Nam GPDKKD: 0107465657 do Sở KH & ĐT TP. Hà Nội cấp ngày 08/06/2016.</p>
+                    <p class="text-secondary m-0 fw-light">Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam</p>
+                    <p class="text-secondary m-0 fw-light">Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: lienhe@shopdunk.com
+                    </p>
+                </div>
+                <div class="col-lg-2  col-4">
+                    <img src="public/images/uploaded/Bocongthuong.png" class="d-block w-75" alt="bo cong thuong">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+    </div>
+</body>
+<script>
+    let listMenu = document.getElementById("listMenu");
+    let menuBtn = document.getElementById("menuBtn");
+    let closeMenu = document.getElementById("closeMenu");
+    menuBtn.addEventListener('click', function() {
+        listMenu.classList.remove('d-none');
+    });
+    closeMenu.addEventListener('click', function() {
+        listMenu.classList.add('d-none');
+    });
+    // Lấy tất cả các mục menu
+    const menuItems = document.querySelectorAll('li.px-2.py-1.x');
+
+    // Thêm sự kiện click cho mỗi mục menu
+    menuItems.forEach(item => {
+        const toggleIcon = item.querySelector('i.fa-solid');
+        const subMenu = item.querySelector('ul');
+
+        // Ẩn submenu ban đầu
+        subMenu.style.display = 'none';
+
+        item.addEventListener('click', () => {
+            // Chuyển đổi class của biểu tượng
+            if (toggleIcon.classList.contains('fa-chevron-right')) {
+                toggleIcon.classList.remove('fa-chevron-right');
+                toggleIcon.classList.add('fa-chevron-down');
+            } else {
+                toggleIcon.classList.remove('fa-chevron-down');
+                toggleIcon.classList.add('fa-chevron-right');
+            }
+
+            // Chuyển đổi trạng thái hiển thị của submenu
+            subMenu.style.display = subMenu.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+</script>
+<!-- script -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js "></script>
+
+</html>

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopDuck</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../public/Font-Awesome-640/css/all.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="shortcut icon" href="../../public/images/uploaded/logo/0012445_Logo_ShopDunk.png" />
+
+</head>
+
+<body>
+
+    <!-- icon fixed -->
+    <div class="contact-position text-light">
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 50px; right: 20px;">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="position-absolute translate-middle p-2 bg-danger rounded-circle" style="right: -6px; top: 8px;">
+          </span>
+        </div>
+        <div class="rounded-circle d-flex align-items-center justify-content-center bg-secondary position-fixed fs-5" style="width: 60px; height: 60px; bottom: 130px; right: 20px;">
+            <a href="https://zalo.me/0353605901"><i class="fa-sharp fa-solid fa-phone-volume fa-shake text-light"></i></a>
+        </div>
+        <div class="master-wrapper-page container-fluid p-0">
+        </div>
+    </div>
+    <!-- endIconfixed -->
+
+    <!-- Header -->
+    <header class="container-fluid px-0 d-none d-lg-block" style="background-color: #252528;">
+        <div class="container-lg col-md-12 row py-3 m-auto">
+            <div class="col-md-2 p-0 justify-content-center">
+                <a class="row align-items-center px-1 px-0-lg" href="" style="height: 100%;">
+                    <!-- <img class="col-12 m-auto" src="/public/images/uploaded/logo/0012445_Logo_ShopDunk.png" alt=""> -->
+                    <img class="col-12 m-auto" src="" alt="0012445_Logo_ShopDunk">
+                </a>
+            </div>
+            <div class="col-md-3 justify-content-center">
+                <div class="col-12">
+                    <input class="col-12 rounded p-2" type="text" placeholder="Tìm kiếm gì...?">
+                </div>
+            </div>
+            <div class="col-md-2 justify-content-center px-1">
+
+                <button class="col-12 row text-white p-1 bg-secondary rounded">
+                  <div class="col-2 mx-0 p-0 text-left my-auto align-items-center"><i class="fa-thin fa-location-dot fa-xl"></i>
+                  </div>
+                  <div class="col-10 px-0">
+                      <div class="text-right" style="font-size: 11px;">Hệ thống cửa hàng</div>
+                      <div class="text-right" style="font-weight: bold; font-size: 13px;">7 cửa hàng</div>
+                  </div>
+              </button>
+            </div>
+            <div class="col-md-2 justify-content-center px-1">
+
+                <button class="col-12 row text-white p-1 rounded" style="background-color: transparent;">
+                  <div class="col-2 mx-0 p-0 text-left my-auto align-items-center"><i class="fa-solid fa-phone-volume fa-xl"></i>
+                  </div>
+                  <div class="col-10 px-0">
+                      <div class="text-right" style="font-size: 11px;">Gọi mua hàng</div>
+                      <div class="text-right" style="font-weight: bold; font-size: 13px;">1234 5678</div>
+                  </div>
+              </button>
+            </div>
+            <div class="col-md-2 justify-content-center px-1">
+
+                <button class="col-12 row text-white p-1 rounded" style="background-color: transparent;">
+                  <div class="col-2 mx-0 p-0 text-left my-auto align-items-center"><i class="fa-regular fa-user fa-xl"></i>
+                  </div>
+                  <div class="col-10 px-0">
+                      <div class="text-right" style="font-size: 11px;">Thông tin</div>
+                      <div class="text-right" style="font-weight: bold; font-size: 13px;">Tài khoản <i
+                              class="fa-solid fa-code"></i></div>
+                  </div>
+              </button>
+            </div>
+            <div class="col-md-1 justify-content-center px-0">
+                <div class="col-12 align-items-center">
+                    <button class="m-auto col-12 row text-white p-1 rounded" style="background-color: transparent;">
+                      <div class="col-4 px-0 mx-0 my-auto"><i class="fa-solid fa-cart-shopping fa-xl"></i></div>
+                      <div class="col-8 px-0">
+                          <div class="text-right" style="font-size: 11px;"><span
+                                  class="bg-danger text-white rounded-circle px-2 py-1"
+                                  style="font-size: 10px; position: relative; left: -10px; top: -5px; margin-right: -5px;">3</span>Giỏ
+                          </div>
+                          <div class="text-right" style="font-size: 13px;">Hàng</div>
+                      </div>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid col-md-12 m-auto" style="border-top: 1px solid #91919f;">
+            <div class="container-xl col-md-12 mx-auto">
+                <ul class="row pb-2">
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Trang chủ</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Giới thiệu</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          iPhone
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          iPad
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Macbook
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <div class="dropdown mt-2">
+                            <a class="px-0 text-light pt-2 dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Phụ kiện
+                        </a>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start mt-1">
+                                <li><a class="dropdown-item" href="#">Iphone 14</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 15</a></li>
+                                <li><a class="dropdown-item" href="#">Iphone 16</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Airpods</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Chính sách</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Tin tức</a>
+                    </li>
+                    <li class="col-2 col-md row align-items-center my-auto" style="font-weight: bold;">
+                        <a class="px-0 text-light pt-2" href="" style="text-decoration: none;">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <header class="container-fluid px-0 d-block d-lg-none" style="background-color: #252528;">
+        <div class="col-12 row py-1 py-sm-2 mx-auto">
+            <div class="col-1 p-0 d-flex justify-content-center">
+                <button id="menuBtn" class="btn text-light m-auto"><i class="fa-solid fa-bars fa-xl"></i></button>
+            </div>
+            <div class="col-11 p-0 justify-content-center row">
+                <div class="col-6 col-sm-4 justify-content-start">
+                    <a class="row align-items-center px-1 px-0-lg" href="" style="height: 100%;">
+                        <!-- <img class="col-12 m-auto" src="/public/images/uploaded/logo/0012445_Logo_ShopDunk.png" alt="0012445_Logo_ShopDunk"> -->
+                        <img class="col-12 m-auto" src="" alt="0012445_Logo_ShopDunk">
+                    </a>
+                </div>
+                <div class="d-flex col-6 col-sm-8 justify-content-end">
+                    <div class="col col-sm-2  d-flex justify-content-center px-1">
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                          <div class=" mx-0 p-0 text-left my-auto align-items-center">
+                              <i class="fa-thin fa-location-dot fa-xl"></i>
+                          </div>
+                          </button>
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                      <div class=" mx-0 p-0 text-left my-auto align-items-center" style="font-size: small;">
+                          <i class="fa-solid fa-phone-volume fa-xl"></i>
+                      </div>
+                      </button>
+                    </div>
+                    <div class="col col-sm-2  d-flex justify-content-center px-1">
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                          <div class=" mx-0 p-0 text-left my-auto align-items-center">
+                              <i class="fa-regular fa-user fa-xl"></i>
+                          </div>
+                          </button>
+                        <button class="col-6 text-white p-1 rounded btn " style="background-color: transparent;">
+                      <div class=" mx-0 p-0 text-left my-auto align-items-center" style="font-size: small;">
+                          <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                      </div>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-1 px-2 text-center">
+            <input class="rounded col-12" type="text" placeholder="Tìm kiếm gì...?">
+        </div>
+
+        <div id="listMenu" class="text-light px-1 py-2 d-none" style="width: 300px; height: 100%; position: absolute; top: 0; left: 0; z-index: 99; background-color: #491515;">
+            <ul class="list-group">
+                <div class="d-flex justify-content-between p-2" style="background-color: #000000;">
+                    <span>DANH MỤC</span>
+                    <span>
+                      <i id="closeMenu" class="fa-solid fa-xmark fa-xl"></i>
+                  </span>
+                </div>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Trang chủ</a></li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Giới thiệu</a></li>
+                <li class="px-2 py-1 x">
+                    <a class="text-light d-flex justify-content-between " style="list-style: none; text-decoration: none;" href="#">iPhone 
+                      <span>
+                          <i class="fa-solid fa-chevron-right"></i>
+                      </span>
+                     </a>
+                    <ul class="mx-0">
+                        <li style="list-style: none;"><a class="text-light" style="list-style: none; text-decoration: none;" href="#">Trang chủ</a></li>
+                        <li style="list-style: none;"><a class="text-light" style="list-style: none; text-decoration: none;" href="#">Giới thiệu</a></li>
+                        <li style="list-style: none;"><a class="text-light" style="list-style: none; text-decoration: none;" href="#">Dịch vụ</a></li>
+                    </ul>
+                </li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Chính sách</a></li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Tin tức</a></li>
+                <li class="px-2 py-1"><a class="text-light" style="list-style: none; text-decoration: none;" href="">Liên hệ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Endheader -->
+
+    <!-- Main content -->
+    <main>
+        <div class="master-wrapper-content container">
+            <div class="master-column-wrapper row pt-2">
+                <div class="col-lg-4 ">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid p-0">
+                            <button class="d-lg-none border-0 button-navbar-mobie ms-3 py-2 fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                            <div class=" side-2 collapse navbar-collapse " id="navbarNavDropdown">
+                                <div class="list-group listbox">
+                                    <div class="slidebar_list-tem ">
+                                        <a href="#" class="active list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-user "></i> Thông tin tài khoản</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class=" inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-location-dot"></i> Địa chỉ nhận hàng</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-sharp fa-solid fa-ballot-check"></i> Đơn đặt hàng</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class=" inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-gear"></i> Hệ thống</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-gift"></i> Điểm thưởng</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-lock"></i> Đổi mật khẩu</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-image"></i> Ảnh đại diện</a>
+                                    </div>
+                                    <div class="slidebar_list-tem">
+                                        <a href="#" class="inactive list-group-item list-group-item-action border-0 fw-semibold"><i class="me-2 fa-solid fa-clock-rotate-left"></i> Lịch sử đánh giá sản phẩm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="center-2 col-lg-8 ">
+                    <div class="page account-page customer-info-page mt-3">
+                        <div class="page-title d-block d-md-none text-center">
+                            <h1 class="fs-4">Thông tin tài khoản</h1>
+                        </div>
+                        <div class="page-body border px-2 pt-2">
+                            <form method="post" action="#">
+                                <div class="fieldset">
+                                    <div class="row ">
+                                        <div class="mb-3 col-md-6">
+                                            <label for="hoten">Tên, Họ:</label>
+                                            <input type="text" class="form-control " id="hoten" name="fullname" value="Phạm duy khang">
+                                        </div>
+                                        <div class="col-md-6 mb-3 ">
+                                            <label for="email">E-mail:</label>
+                                            <input type="email" class="form-control " id="email" name="email" value="phamduykhang11a2@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="phone">Điện thoại:</label>
+                                            <input type="number" class="form-control form-control-lg" id="phone" name="phone_number" value="0905263041">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label>Giới tính:</label>
+                                            <div class="gender mt-2">
+                                                <input type="radio" value="M" id="gender-male" name="Gender">
+                                                <label class="forcheckbox" for="gender-male">Nam</label>
+                                                <input type="radio" value="F" id="gender-female" name="Gender">
+                                                <label class="forcheckbox" for="gender-female">Nữ</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="inputs date-of-birth"><label>Ngày sinh:</label>
+                                        <div class="date-picker-wrapper">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <select class="form-select">
+                                                <option value="0">ngày</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12" selected="">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                            </select>
+                                                </div>
+                                                <div class="col-4">
+                                                    <select class="form-select ">
+                                                <option value="0">tháng</option>
+                                                <option value="1" selected="">Tháng Giêng</option>
+                                                <option value="2">Tháng Hai</option>
+                                                <option value="3">Tháng Ba</option>
+                                                <option value="4">Tháng Tư</option>
+                                                <option value="5">Tháng Năm</option>
+                                                <option value="6">Tháng Sáu</option>
+                                                <option value="7">Tháng Bảy</option>
+                                                <option value="8">Tháng Tám</option>
+                                                <option value="9">Tháng Chín</option>
+                                                <option value="10">Tháng Mười</option>
+                                                <option value="11">Tháng Mười Một</option>
+                                                <option value="12">Tháng Mười Hai</option>
+                                            </select>
+                                                </div>
+                                                <div class="col-4">
+                                                    <select class="form-select">
+                                                <option value="0">Năm</option>
+                                                <option value="1914">1914</option>
+                                                <option value="1915">1915</option>
+                                                <option value="1916">1916</option>
+                                                <option value="1917">1917</option>
+                                                <option value="1918">1918</option>
+                                                <option value="1919">1919</option>
+                                                <option value="1920">1920</option>
+                                                <option value="1921">1921</option>
+                                                <option value="1922">1922</option>
+                                                <option value="1923">1923</option>
+                                                <option value="1924">1924</option>
+                                                <option value="1925">1925</option>
+                                                <option value="1926">1926</option>
+                                                <option value="1927">1927</option>
+                                                <option value="1928">1928</option>
+                                                <option value="1929">1929</option>
+                                                <option value="1930">1930</option>
+                                                <option value="1931">1931</option>
+                                                <option value="1932">1932</option>
+                                                <option value="1933">1933</option>
+                                                <option value="1934">1934</option>
+                                                <option value="1935">1935</option>
+                                                <option value="1936">1936</option>
+                                                <option value="1937">1937</option>
+                                                <option value="1938">1938</option>
+                                                <option value="1939">1939</option>
+                                                <option value="1940">1940</option>
+                                                <option value="1941">1941</option>
+                                                <option value="1942">1942</option>
+                                                <option value="1943">1943</option>
+                                                <option value="1944">1944</option>
+                                                <option value="1945">1945</option>
+                                                <option value="1946">1946</option>
+                                                <option value="1947">1947</option>
+                                                <option value="1948">1948</option>
+                                                <option value="1949">1949</option>
+                                                <option value="1950">1950</option>
+                                                <option value="1951">1951</option>
+                                                <option value="1952">1952</option>
+                                                <option value="1953">1953</option>
+                                                <option value="1954">1954</option>
+                                                <option value="1955">1955</option>
+                                                <option value="1956">1956</option>
+                                                <option value="1957">1957</option>
+                                                <option value="1958">1958</option>
+                                                <option value="1959">1959</option>
+                                                <option value="1960">1960</option>
+                                                <option value="1961">1961</option>
+                                                <option value="1962">1962</option>
+                                                <option value="1963">1963</option>
+                                                <option value="1964">1964</option>
+                                                <option value="1965">1965</option>
+                                                <option value="1966">1966</option>
+                                                <option value="1967">1967</option>
+                                                <option value="1968">1968</option>
+                                                <option value="1969">1969</option>
+                                                <option value="1970">1970</option>
+                                                <option value="1971">1971</option>
+                                                <option value="1972">1972</option>
+                                                <option value="1973">1973</option>
+                                                <option value="1974">1974</option>
+                                                <option value="1975">1975</option>
+                                                <option value="1976">1976</option>
+                                                <option value="1977">1977</option>
+                                                <option value="1978">1978</option>
+                                                <option value="1979">1979</option>
+                                                <option value="1980">1980</option>
+                                                <option value="1981">1981</option>
+                                                <option value="1982">1982</option>
+                                                <option value="1983">1983</option>
+                                                <option value="1984">1984</option>
+                                                <option value="1985">1985</option>
+                                                <option value="1986">1986</option>
+                                                <option value="1987">1987</option>
+                                                <option value="1988">1988</option>
+                                                <option value="1989">1989</option>
+                                                <option value="1990">1990</option>
+                                                <option value="1991">1991</option>
+                                                <option value="1992">1992</option>
+                                                <option value="1993">1993</option>
+                                                <option value="1994">1994</option>
+                                                <option value="1995">1995</option>
+                                                <option value="1996">1996</option>
+                                                <option value="1997">1997</option>
+                                                <option value="1998">1998</option>
+                                                <option value="1999">1999</option>
+                                                <option value="2000">2000</option>
+                                                <option value="2001">2001</option>
+                                                <option value="2002">2002</option>
+                                                <option value="2003" selected="">2003</option>
+                                                <option value="2004">2004</option>
+                                                <option value="2005">2005</option>
+                                                <option value="2006">2006</option>
+                                                <option value="2007">2007</option>
+                                                <option value="2008">2008</option>
+                                                <option value="2009">2009</option>
+                                                <option value="2010">2010</option>
+                                                <option value="2011">2011</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2019">2019</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2022">2022</option>
+                                                <option value="2023">2023</option>
+                                                <option value="2024">2024</option>
+                                            </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="field-validation-valid" data-valmsg-for="DateOfBirthDay" data-valmsg-replace="true"></span> <span class="field-validation-valid" data-valmsg-for="DateOfBirthMonth" data-valmsg-replace="true"></span>
+                                        <span class="field-validation-valid" data-valmsg-for="DateOfBirthYear" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="mt-3 inputs user-name">
+                                        <label for="Username">Username:</label> <span class="readonly-username">khangpham</span>
+                                    </div>
+                                    <div class="buttons mb-3">
+                                        <button type="submit">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End main content -->
+
+    <!-- Form info -->
+    <article>
+        <div class="footer_newletter container-fluid pt-5">
+            <div class="form-newletter text-center py-5" style="background: #F2F2F2; color: #515154;">
+                <h3>Đăng kí nhận tin từ ShopDuck</h3>
+                <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+                <div class="input-group w-25 m-auto d-flex">
+                    <input type="text" class="form-control rounded-start-5 px-3 border-0" placeholder="Email của bạn">
+                    <button class="input-group-text btn text-bg-primary rounded-end-5 px-4">Đăng kí</button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Form info -->
+
+    <!-- Foooter -->
+    <div class="footer-upper text-bg-dark">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="follow-us col-lg-3 col-12 ">
+                    <div class="fu-logo">
+                        <img src="public/images/uploaded/logo/0012445_Logo_ShopDunk.png" class="d-block w-50" alt="logo">
+                    </div>
+                    <div class="fu-topic my-2">
+                        Năm 2020, ShopDunk trở thành đại lý ủy quyền của Apple. Chúng tôi phát triển chuỗi cửa hàng tiêu chuẩn và Apple Mono Store nhằm mang đến trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple cho người dùng Việt Nam.
+                    </div>
+                    <div class="fu-network">
+                        <ul class="d-inline-flex">
+                            <li class="list-group-item p-2 me-2"><a href="#"><i
+                                      class="fs-4 fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-group-item p-2 me-2"><a href="#"><i
+                                      class="fs-4 fa-brands fa-youtube text-danger"></i></a></li>
+                            <li class="list-group-item p-2 me-2"><a href="#"><i class="fs-4 fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information col-lg-3 col-4 px-5">
+                    <h6 class="mb-3">Thông tin</h6>
+
+                    <ul class="list-unstyled text-start text-secondary">
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="#!introduce" class="text-reset text-decoration-none">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Check IMEI</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Phương thức thanh toán</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Thuê điểm bán lẻ</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Bảo hành và sửa chữa</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Đánh giá chất lượng, khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">tra cứu hóa đơn điện tử</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="customer-service col-lg-3 col-4 px-5">
+                    <h6 class="mb-3">Chính sách</h6>
+
+                    <ul class="list-unstyled text-start text-secondary">
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Thu cũ đổi mới</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Giao hàng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Giao hàng (ZaloPay)</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Đổi trả</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Dịnh vụ</a>
+                        </li>
+                        <li>
+                            <a href="#!complain" class="text-reset text-decoration-none">Giải quyết khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Bảo mật thông tin</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Hướng dẫn thanh toán qua VNPAY</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="my-account col-lg-3 col-4 px-5">
+                    <h6 class="mb-3">Địa chỉ & Liên hệ</h6>
+
+                    <ul class="list-unstyled text-start text-secondary">
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tài khoảng của tôi</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Đơn hàng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Hệ thống cữa hàng</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Tìm store trên Google Map</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Mua hàng: </a><span class="text-primary fs-6">1900.6626</span>
+                            <ul>
+                                <li class="list-group-item fw-lighter">Nhánh 1: khu vực Hà Nội và các tỉnh phía bắc</li>
+                                <li class="list-group-item fw-lighter">Nhánh 2: khu vực Hồ Chí Minh và các tỉnh phía nam
+                                </li>
+                                <li class="list-group-item fw-lighter">Nhánh 3: Khiếu nại và góp ý</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-reset text-decoration-none">Doanh nghiệp: </a><span class="text-primary fs-6">0822.688.668</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row py-4">
+                <div class="col-lg-10 col-8">
+                    <p class="text-secondary m-0 fw-light">© 2016 Công ty Cổ Phần HESMAN Việt Nam GPDKKD: 0107465657 do Sở KH & ĐT TP. Hà Nội cấp ngày 08/06/2016.</p>
+                    <p class="text-secondary m-0 fw-light">Địa chỉ: Số 76 Thái Hà, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội, Việt Nam</p>
+                    <p class="text-secondary m-0 fw-light">Đại diện pháp luật: PHẠM MẠNH HÒA | ĐT: 0247.305.9999 | Email: lienhe@shopdunk.com
+                    </p>
+                </div>
+                <div class="col-lg-2  col-4">
+                    <img src="public/images/uploaded/Bocongthuong.png" class="d-block w-75" alt="bo cong thuong">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+    </div>
+</body>
+<script>
+    let listMenu = document.getElementById("listMenu");
+    let menuBtn = document.getElementById("menuBtn");
+    let closeMenu = document.getElementById("closeMenu");
+    menuBtn.addEventListener('click', function() {
+        listMenu.classList.remove('d-none');
+    });
+    closeMenu.addEventListener('click', function() {
+        listMenu.classList.add('d-none');
+    });
+    // Lấy tất cả các mục menu
+    const menuItems = document.querySelectorAll('li.px-2.py-1.x');
+
+    // Thêm sự kiện click cho mỗi mục menu
+    menuItems.forEach(item => {
+        const toggleIcon = item.querySelector('i.fa-solid');
+        const subMenu = item.querySelector('ul');
+
+        // Ẩn submenu ban đầu
+        subMenu.style.display = 'none';
+
+        item.addEventListener('click', () => {
+            // Chuyển đổi class của biểu tượng
+            if (toggleIcon.classList.contains('fa-chevron-right')) {
+                toggleIcon.classList.remove('fa-chevron-right');
+                toggleIcon.classList.add('fa-chevron-down');
+            } else {
+                toggleIcon.classList.remove('fa-chevron-down');
+                toggleIcon.classList.add('fa-chevron-right');
+            }
+
+            // Chuyển đổi trạng thái hiển thị của submenu
+            subMenu.style.display = subMenu.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+</script>
+<!-- script -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js "></script>
+
+</html>
